@@ -63,3 +63,29 @@ ActionController::RoutingError (No route matches [GET] "/README.md"):
 
 
   Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (9.0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-10-07 20:30:37 -0500
+Served asset /rails.png - 200 OK (0ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2013-10-07 20:31:43 -0500
+Processing by Rails::InfoController#properties as HTML
+  Rendered inline template (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2013-10-07 20:31:47 -0500
+Processing by Rails::InfoController#properties as HTML
+  Rendered inline template (1.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2013-10-07 20:31:48 -0500
+Processing by Rails::InfoController#properties as HTML
+  Rendered inline template (0.0ms)
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-10-07 20:31:58 -0500
+Served asset /rails.png - 304 Not Modified (0ms)
